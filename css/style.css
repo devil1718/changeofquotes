@@ -1,11 +1,11 @@
 body {
-  background-image: url(../simple.jpg);
+  background-image: url(../imgs/simple.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .shap {
-  background-image: url(../gray-concrete-wall.jpg);
+  background-image: url(../imgs/gray-concrete-wall.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
