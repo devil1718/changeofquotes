@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Lumanosimo&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Lumanosimo&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="demo" class="container-fluid w-100 vh-100">
+      <div class="card position-relative border-3 border-danger shap">
+        <i class="up fa-solid fa-quote-left fa-5x text-danger"></i>
+        <i
+          class="down fa-solid fa-quote-left fa-flip-horizontal fa-5x text-danger"
+        ></i>
+        <img
+          src="https://images.gr-assets.com/authors/1673611182p8/3565.jpg"
+          class="img border border-3 border-danger position-absolute w-25 translate-middle-y rounded-circle"
+          alt=""
+          id="1"
+        />
+        <h2 class="author text-center position-absolute text-black" id="2">
+          <span class="text-danger">Author</span> : Oscar Wilde
+        </h2>
+        <p class="para text-center text-black " id="3">
+            “Be yourself; everyone else is already taken.”
+        </p>
+        <button
+          onclick="changeQutoes()"
+          class="sub btn btn-outline-danger mx-auto text-center"
+        >
+          Choose Quotes
+        </button>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

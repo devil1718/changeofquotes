@@ -1,0 +1,56 @@
+body {
+  background-image: url(../simple.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shap {
+  background-image: url(../gray-concrete-wall.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.container-fluid {
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  margin-bottom: 20%;
+  width: 200px;
+  height: 220px;
+}
+.author {
+  margin-top: 12%;
+  font-family: "Inter", sans-serif;
+  font-family: "Lumanosimo", cursive;
+  font-family: "Pacifico", cursive;
+}
+.para {
+  margin-top: 8%;
+  font-family: "Dancing Script", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Lumanosimo", cursive;
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+.sub {
+  margin-top: 12%;
+}
+.up {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+}
+.down {
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+}
